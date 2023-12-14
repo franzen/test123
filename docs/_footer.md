@@ -1,0 +1,1 @@
+&copy; 2023, [WiTTRA](https://wittra.io).
