@@ -1,0 +1,211 @@
+html {
+  font-size: 16px;
+}
+
+body,
+button,
+input,
+textarea {
+  font-family: scandia-web, sans-serif;
+  font-weight: 400;
+  color: rgba(9, 9, 16, 0.7);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 1rem;
+}
+
+footer span:first-child {
+  display: none;
+}
+
+.app-name-link > img {
+  height: 40px;
+  margin-top: 20px;
+}
+
+.docsify-tabs__tab {
+  outline: none;
+}
+
+h1 a span {
+  font-size: 1.3em !important;
+  letter-spacing: 0;
+  font-weight: 500;
+  color: #34495e !important;
+}
+
+h2 a span {
+  font-size: 0.85em !important;
+  letter-spacing: 0;
+  font-weight: 450;
+  color: #34495e !important;
+}
+
+h3 a span {
+  font-size: 0.75em !important;
+  letter-spacing: 0;
+  font-weight: 500;
+  color: #34495e !important;
+}
+
+h4 a span {
+  font-size: 1.05rem !important;
+  letter-spacing: 0;
+  font-weight: 500;
+  color: #34495e !important;
+}
+
+h3 a span::before,
+h2 a span::before {
+  content: "#";
+  font-weight: 400;
+  margin-left: -25px;
+  position: absolute;
+  font-size: 28px;
+  color: #b1f903;
+  opacity: 1;
+}
+
+.anchor:hover {
+  text-decoration: none;
+}
+
+.markdown-section {
+  line-height: 1.8em;
+  margin-bottom: 2em;
+  max-width: 85%;
+  word-wrap: break-word;
+}
+.markdown-section pre {
+  -moz-osx-font-smoothing: initial;
+  -webkit-font-smoothing: initial;
+  font-family: "Roboto Mono", Monaco, courier, monospace;
+  line-height: 1.5rem;
+  margin: 2.2em 0;
+  overflow: auto;
+  padding: 0 1rem;
+  position: relative;
+  word-wrap: normal;
+  background: #fbfbfd;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+
+.markdown-section {
+  margin: 0 auto;
+  max-width: 650px !important;
+  padding: 40px 40px 40px 40px;
+  position: relative;
+  flex: 1 1 0%;
+  margin: 0 48px !important;
+}
+
+.page_toc ul a:hover span {
+  color: var(--accent-color);
+  border-bottom: none !important;
+  text-decoration: none !important;
+}
+
+.pagination-item-title {
+  font-size: 1.6em;
+  color: var(--accent-color);
+  opacity: 0.6;
+}
+
+.docsify-pagination-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  overflow: hidden;
+  margin: 5em 0 1em;
+  border-top: none !important;
+}
+
+.markdown-section em {
+  color: var(--accent-color);
+}
+
+.nav {
+  width: var(--toc-width, 300px);
+  align-self: flex-start;
+  flex: 0 0 auto;
+}
+
+.markdown-section code {
+  border-radius: 2px;
+  color: var(--accent-color);
+  font-family: "Roboto Mono", Monaco, courier, monospace;
+  font-size: 0.8rem;
+  margin: 0 2px;
+  padding: 3px 5px;
+  white-space: pre-wrap;
+  background: #fbfbfd;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+
+.token.keyword,
+.token.function {
+  color: var(--accent-color);
+}
+/*
+      .markdown-section ol {
+        list-style: none;
+        counter-reset: li;
+      }
+      .markdown-section ol li::before {
+        content: counter(li);
+        color: red;
+        width: 1em;
+        margin-left: -1.5em;
+        margin-right: 0.5em;
+        text-align: right;
+        direction: rtl;
+      }
+
+      .markdown-section li {
+        counter-increment: li;
+      }
+      */
+
+.docsify-tabs--material .docsify-tabs__content {
+  padding-top: 30px;
+}
+
+img.medium-zoom-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img {
+  max-height: 500px;
+}
+
+img[alt=logo] {
+  max-width: 300px;
+}
+
+img[alt=img-small] {
+  max-height: 100px;
+}
+
+img[alt=img-medium] {
+  max-height: 300px;
+}
+
+img[alt=img-product] {
+  max-height: 300px;
+}
+
+img[alt=img-product-inline2] {
+  margin: 10px;
+  max-height: 250px;
+  max-width: 50%;
+  display: inline;
+}
+
+img[alt=img-product-inline3] {
+  margin: 10px;
+  max-height: 250px;
+  max-width: 33%;
+  display: inline;
+}

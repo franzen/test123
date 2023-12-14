@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Wittra - Documentation</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="description" content="Description" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <!--
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#212428" />
+    <meta name="msapplication-TileColor" content="#212428" />
+    <meta name="msapplication-TileImage" content="/mstile-144x144.png" />
+    -->
+    <meta name="theme-color" content="#212428" />
+
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/vue.css" />
+    <link rel="stylesheet" href="https://use.typekit.net/ins2wgm.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/docsify-toc@1.0.0/dist/toc.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/fontawesome.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/brands.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/regular.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/solid.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="//cdn.jsdelivr.net/npm/docsify-top-banner-plugin@latest/dist/style.css"
+    />
+
+    <link rel="stylesheet" href="./style/_variables.css" />
+    <link rel="stylesheet" href="./style/index.css" />
+    <link rel="stylesheet" href="./style/cover.css" />
+    <link rel="stylesheet" href="./style/sidebar.css" />
+    <link rel="stylesheet" href="./style/search.css" />
+    <link rel="stylesheet" href="./style/toc.css" />
+  </head>
+  <body>
+    <div id="app"></div>
+    <script>
+      window.$docsify = {
+        onlyCover: false,
+        loadSidebar: true,
+        alias: {
+          //"/.*/_sidebar.md": "/0.1.0/_sidebar.md"
+          // "_sidebar.md": "/0.1.0/_sidebar.md"
+          // 0.1.0/.*/_sidebar.md": "0.1.0/_sidebar.md"
+        },
+        coverpage: false,
+        ga: "UA-XXXXX-Y",
+        toc: {
+          scope: ".markdown-section",
+          headings: "h1, h2, h3, h4, h5, h6",
+          title: "Contents"
+        },
+        plantuml: {
+          skin: "default"
+        },
+
+        logo: "./images/logo.png",
+        name: "Wittra - Documentation",
+        themeColor: "var(--accent-color)",
+        auto2top: true,
+        autoHeader: false,
+        maxLevel: 3,
+        repo: "",
+        search: {
+          maxAge: 86400000,
+          namespace: "wittra-dev",
+          depth: 6,
+          noData: "No Results!",
+          hideOtherSidebarContent: false
+        },
+        tabs: {
+          persist: true,
+          sync: true,
+          theme: "material",
+          tabComments: true,
+          tabHeadings: true
+        },
+        pagination: {
+          previousText: "Previous",
+          nextText: "Next",
+          crossChapter: true
+        },
+        footer: {
+          copy: "",
+          auth: "<span>Wittra &copy; 2023.</span>",
+          pre: "<hr/>",
+          style: "text-align: center;",
+          style: "className"
+        },
+        select: {
+          detectOperatingSystem: {
+            enabled: false,
+            menuId: "operating-system"
+          },
+          sync: true,
+          theme: "classic"
+        }
+      };
+    </script>
+    <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/ga.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+    <script src="./toc.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/docsify-copy-code@2"></script>
+    <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-bash.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/docsify-fontawesome/dist/docsify-fontawesome.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/docsify-plantuml/dist/docsify-plantuml.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/docsify-tabs@1"></script>
+    <script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/docsify-footer-enh/dist/docsify-footer-enh.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/docsify-example-panels"></script>
+  </body>
+</html>
